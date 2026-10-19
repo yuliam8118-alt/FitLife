@@ -38,7 +38,7 @@ print(" ")
 print("✨Таа-даааам!✨")
 print(" ")
 print(f"{user_name}, индекс массы вашего тела")
-print(f"(ИМТ) равен {str(body_mass_index)}")
+print(f"(ИМТ) равен {body_mass_index}")
 print(" ")
 
 if body_mass_index < 18.5:
@@ -51,7 +51,7 @@ if 18.5 <= body_mass_index < 24.9:
 if body_mass_index >= 25:
     print("У вас есть избыточный вес.")
     print('FitLife рекомендует вам "Программу сброса лишнего веса".')
-print(f"💧 Ваша дневная норма потребления воды: {str(water_needed)} л.")
+print(f"💧 Ваша дневная норма потребления воды: {water_needed} л.")
 print(" ")
 print("✨✨✨")
 print(f"{user_name}, желаю вам вдохновляющего преображения!")
