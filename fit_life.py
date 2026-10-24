@@ -83,7 +83,7 @@ print(f"(ИМТ) равен {body_mass_index}")
 if body_mass_index < UNDERWEIGHT_THRESHOLD:
     print("У вас дефицит массы тела.")
     print('FitLife рекомендует вам "Программу набора мышечной массы".')
-if 18.5 <= body_mass_index <= NORMAL_WEIGHT_THRESHOLD:
+if UNDERWEIGHT_THRESHOLD <= body_mass_index <= NORMAL_WEIGHT_THRESHOLD:
     print("Замечательно! Ваш вес в норме.")
     print('FitLife рекомендует вам')
     print('"Программу оздоровления и поддержания веса".')
